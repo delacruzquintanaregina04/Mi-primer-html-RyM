@@ -1,5 +1,6 @@
 body {
     background-color: aqua;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .start { /* Cuando es una clase se agrega el punto*/
     font-family: Arial, sans-serif;
@@ -9,4 +10,14 @@ body {
 img {
     width: 200px;
     border-radius: 15%;
+}
+p {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    color:darkblue;
+}
+.start{
+    color: darkred;
+    font-weight: bold;
 }
