@@ -13,11 +13,37 @@ img {
 }
 p {
     font-size: 18px;
-    font-family: Arial, Helvetica, sans-serif;
+   
     line-height: 1.6;
     color:darkblue;
+}
+.mi-clase {
+    font-size: larger;
+    display:inline-block;
+    
 }
 .start{
     color: darkred;
     font-weight: bold;
+}
+.mi-clase a {
+    font-style: oblique;
+    font-weight: 800;
+    color: green;
+    
+}
+button {
+    width: 100px;
+    height: 40px;
+    font-size: larger;
+    background-color: lightgreen;
+    
+}
+button:hover /*pasa cuando se pone el mouse encima*/ 
+{
+    background-color: green;
+    color: white;
+}
+div {
+    background-color: rgba(66, 6, 207, 0.5);
 }
