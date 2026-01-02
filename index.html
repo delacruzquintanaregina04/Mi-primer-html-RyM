@@ -1,169 +1,188 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Medicamentos y Remedios | Información confiable</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
-    <meta name="description" content="Información clara y confiable sobre medicamentos y remedios naturales.">
-    <link rel="stylesheet" href="src/css/styles.css">
-</head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <meta
+      name="description"
+      content="Información clara y confiable sobre medicamentos y remedios naturales."
+    />
+    <link rel="stylesheet" href="src/images/css/style.css?v=1.0" />
+  </head>
 
-<body>
+  <body>
+    <a class="skip-link" href="#contenido">Saltar al contenido</a>
 
-<a class="skip-link" href="#contenido">Saltar al contenido</a>
-
-<!-- HEADER -->
-<header class="site-header" id="top">
-    <nav class="navbar container" aria-label="Navegación principal">
+    <!-- HEADER -->
+    <header class="site-header" id="top">
+      <nav class="navbar container" aria-label="Navegación principal">
         <a href="#inicio" class="nav__logo" aria-label="Ir a inicio">
-            <img src="src/images/logo.png" alt="Logo Medicamentos y Remedios" />
-            <span>Medicamentos<span class="brand-dot">.Info</span></span>
+          <img src="src/images/logo.png" alt="Logo Medicamentos y Remedios" />
+          <span>Medicamentos<span class="brand-dot">.Info</span></span>
         </a>
 
         <div class="nav__actions">
-            <ul class="nav__menu" id="navMenu">
-                <li><a href="#inicio" class="nav-link">Inicio</a></li>
-                <li><a href="#proyectos" class="nav-link">Servicios</a></li>
-                <li><a href="#sobre-mi" class="nav-link">Sobre nosotros</a></li>
-                <li><a href="#contacto" class="nav-link">Contacto</a></li>
-            </ul>
+          <ul class="nav__menu" id="navMenu">
+            <li><a href="#inicio" class="nav-link">Inicio</a></li>
+            <li><a href="#proyectos" class="nav-link">Servicios</a></li>
+            <li><a href="#sobre-mi" class="nav-link">Sobre nosotros</a></li>
+            <li><a href="#contacto" class="nav-link">Contacto</a></li>
+          </ul>
 
-            <a href="#contacto" class="nav__cta">
-                <span class="icon" aria-hidden="true">
-                    <svg viewBox="0 0 24 24" width="18" height="18" fill="none">
-                        <path d="M21 8l-9 6L3 8" stroke="currentColor" stroke-width="2"/>
-                        <path d="M3 8v10h18V8" stroke="currentColor" stroke-width="2"/>
-                    </svg>
-                </span>
-                Contáctanos
-            </a>
+          <a href="#contacto" class="nav__cta">
+            <span class="icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none">
+                <path
+                  d="M21 8l-9 6L3 8"
+                  stroke="currentColor"
+                  stroke-width="2"
+                />
+                <path d="M3 8v10h18V8" stroke="currentColor" stroke-width="2" />
+              </svg>
+            </span>
+            Contáctanos
+          </a>
 
-            <button class="nav__toggle" id="navToggle"
-                aria-expanded="false" aria-controls="mobilePanel"
-                aria-label="Abrir menú">
-                <span class="sr-only">Abrir menú</span>
-                <span class="burger" aria-hidden="true"></span>
-            </button>
+          <button
+            class="nav__toggle"
+            id="navToggle"
+            aria-expanded="false"
+            aria-controls="mobilePanel"
+            aria-label="Abrir menú"
+          >
+            <span class="sr-only">Abrir menú</span>
+            <span class="burger" aria-hidden="true"></span>
+          </button>
         </div>
 
         <div class="nav__panel" id="mobilePanel" hidden>
-            <ul class="nav__panelList">
-                <li><a href="#inicio" class="panel-link">Inicio</a></li>
-                <li><a href="#proyectos" class="panel-link">Servicios</a></li>
-                <li><a href="#sobre-mi" class="panel-link">Sobre nosotros</a></li>
-                <li><a href="#contacto" class="panel-link">Contacto</a></li>
-                <li class="panel-divider"></li>
-                <li><a class="panel-cta" href="#contacto">Escríbenos</a></li>
-            </ul>
+          <ul class="nav__panelList">
+            <li><a href="#inicio" class="panel-link">Inicio</a></li>
+            <li><a href="#proyectos" class="panel-link">Servicios</a></li>
+            <li><a href="#sobre-mi" class="panel-link">Sobre nosotros</a></li>
+            <li><a href="#contacto" class="panel-link">Contacto</a></li>
+            <li class="panel-divider"></li>
+            <li><a class="panel-cta" href="#contacto">Escríbenos</a></li>
+          </ul>
         </div>
-    </nav>
-</header>
+      </nav>
+    </header>
 
-<!-- CONTENIDO PRINCIPAL -->
-<main id="contenido">
-
-    <!-- HERO -->
-    <section id="inicio" class="hero">
+    <!-- CONTENIDO PRINCIPAL -->
+    <main id="contenido">
+      <!-- HERO -->
+      <section id="inicio" class="hero">
         <h1>Medicamentos y Remedios</h1>
-        <p>Información clara, confiable y accesible sobre medicamentos, remedios naturales y cuidado de la salud.</p>
-    </section>
+        <p>
+          Información clara, confiable y accesible sobre medicamentos, remedios
+          naturales y cuidado de la salud.
+        </p>
+      </section>
 
-    <!-- SERVICIOS -->
-    <section id="proyectos" class="section">
+      <!-- SERVICIOS -->
+      <section id="proyectos" class="section">
         <h2>Nuestros Servicios</h2>
-        <p>Ofrecemos información útil para el cuidado responsable de tu salud.</p>
+        <p>
+          Ofrecemos información útil para el cuidado responsable de tu salud.
+        </p>
 
         <ul>
-            <li>Información sobre medicamentos y su uso correcto.</li>
-            <li>Remedios naturales para malestares comunes.</li>
-            <li>Recomendaciones básicas para el bienestar diario.</li>
+          <li>Información sobre medicamentos y su uso correcto.</li>
+          <li>Remedios naturales para malestares comunes.</li>
+          <li>Recomendaciones básicas para el bienestar diario.</li>
         </ul>
-    </section>
+      </section>
 
-    <!-- SOBRE NOSOTROS -->
-    <section id="sobre-mi" class="section">
+      <!-- SOBRE NOSOTROS -->
+      <section id="sobre-mi" class="section">
         <h2>Sobre nosotros</h2>
         <p>
-            Somos un espacio informativo dedicado a compartir datos confiables sobre
-            medicamentos y remedios naturales. Nuestro objetivo es ayudarte a tomar
-            mejores decisiones para tu bienestar.
+          Somos un espacio informativo dedicado a compartir datos confiables
+          sobre medicamentos y remedios naturales. Nuestro objetivo es ayudarte
+          a tomar mejores decisiones para tu bienestar.
         </p>
-    </section>
+      </section>
 
-    <!-- CONTACTO -->
-    <section id="contacto" class="section">
+      <!-- CONTACTO -->
+      <section id="contacto" class="section">
         <h2>Contacto</h2>
         <p>¿Tienes dudas o deseas más información? Escríbenos.</p>
 
         <form>
-            <label for="nombre">Nombre</label>
-            <input type="text" id="nombre" required>
+          <label for="nombre">Nombre</label>
+          <input type="text" id="nombre" required />
 
-            <label for="email">Correo electrónico</label>
-            <input type="email" id="email" required>
+          <label for="email">Correo electrónico</label>
+          <input type="email" id="email" required />
 
-            <label for="mensaje">Mensaje</label>
-            <textarea id="mensaje" rows="4" required></textarea>
+          <label for="mensaje">Mensaje</label>
+          <textarea id="mensaje" rows="4" required></textarea>
 
-            <button type="submit">Enviar</button>
+          <button type="submit">Enviar</button>
         </form>
-    </section>
+      </section>
+    </main>
 
-</main>
-
-<!-- FOOTER -->
-<footer class="site-footer" id="terminos">
-    <section class="footer__cols">
+    <!-- FOOTER -->
+    <footer class="site-footer" id="terminos">
+      <section class="footer__cols">
         <div>
-            <h3>Medicamentos y Remedios</h3>
-            <p>Información confiable para el cuidado de tu salud.</p>
+          <h3>Medicamentos y Remedios</h3>
+          <p>Información confiable para el cuidado de tu salud.</p>
         </div>
 
         <div>
-            <h4>Enlaces</h4>
-            <ul>
-                <li><a href="#proyectos">Servicios</a></li>
-                <li><a href="#sobre-mi">Sobre nosotros</a></li>
-            </ul>
+          <h4>Enlaces</h4>
+          <ul>
+            <li><a href="#proyectos">Servicios</a></li>
+            <li><a href="#sobre-mi">Sobre nosotros</a></li>
+          </ul>
         </div>
 
         <div>
-            <h4>Legal</h4>
-            <ul>
-                <li><a href="#terminos">Términos y condiciones</a></li>
-                <li><a href="#privacidad">Política de privacidad</a></li>
-            </ul>
+          <h4>Legal</h4>
+          <ul>
+            <li><a href="#terminos">Términos y condiciones</a></li>
+            <li><a href="#privacidad">Política de privacidad</a></li>
+          </ul>
         </div>
 
         <div>
-            <h4>Redes</h4>
-            <ul>
-                <li><a href="#">Facebook</a></li>
-                <li><a href="#">Instagram</a></li>
-            </ul>
+          <h4>Redes</h4>
+          <ul>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Instagram</a></li>
+          </ul>
         </div>
-    </section>
+      </section>
 
-    <small>&copy; 2024 Medicamentos y Remedios. Todos los derechos reservados.</small>
-</footer>
+      <small
+        >&copy; 2024 Medicamentos y Remedios. Todos los derechos
+        reservados.</small
+      >
+    </footer>
 
-<!-- BANNER DE COOKIES -->
-<section class="cookie" id="cookieBanner" role="dialog" aria-live="polite">
-    <div class="cookie__content container">
+    <!-- BANNER DE COOKIES -->
+    <section class="cookie" id="cookieBanner" role="dialog" aria-live="polite">
+      <div class="cookie__content container">
         <p>
-            Usamos cookies para mejorar tu experiencia.
-            <a href="./privacidad.html">Más información</a>
+          Usamos cookies para mejorar tu experiencia.
+          <a href="./privacidad.html">Más información</a>
         </p>
         <div class="cookie__actions">
-            <button class="btn btn--ghost" id="cookieReject">Rechazar</button>
-            <button class="btn btn--primary" id="cookieAccept">Aceptar</button>
+          <button class="btn btn--ghost" id="cookieReject">Rechazar</button>
+          <button class="btn btn--primary" id="cookieAccept">Aceptar</button>
         </div>
-    </div>
-</section>
+      </div>
+    </section>
 
-<script src="src/js/main.js"></script>
-</body>
+    <script src="src/images/main.js/main.js"></script>
+  </body>
 </html>
